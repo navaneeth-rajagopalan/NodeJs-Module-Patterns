@@ -18,3 +18,9 @@ var mod3b = require('./myModule3');
 mod3b.func();
 
 // Patter 4
+var Mod4 = require('./myModule4');
+var mod4 = new Mod4();
+mod4.func();
+mod4.msg = "Mod 4 new message";
+var mod4b = new Mod4();
+mod4b.func();
